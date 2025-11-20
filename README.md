@@ -39,13 +39,15 @@ Es. pag 86
 
 ``` c +Somma.cpp
 // Somma.cpp
-#include <iostream>
+#include <iostream> 
 using namespace std;
 
 int main() {
     int a, b, s;
     cin >> a;
+    cout >> "Immmetti un addendo intero";
     cin >> b;
+    cout >> "Immetti u naltro addendo intero";
     s = a + b;
     cout << s;
 
@@ -158,3 +160,43 @@ int main () {
 @LIA.cpp
 
 ##### 1. Predict (p. 93)
+
+//Somma . cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+}
+
+### File.cpp - pag. 94
+c assegnazione.cpp
+// asssegnazione.cpp
+#include <iostream>
+using namespace std;
+
+int main () {
+    double raggio= 10;
+    double area = raggio * raggio * 3.14
+    int tempo_in_sec = 900;
+    int_durata_in_minuti = tempo_in_sec / 60;
+    doyuble spazio = 1000; // 1 km
+    double tempo = 6 * 60; // 6 minuti
+    double velocità = spazio / tempo;
+    string ome = "Rossi";
+
+returno 0;
+}
+
+@LIA.cpp
+
+#### 1. Predict (p. 94)
+Il rpogramma dichiara di avere alcuni variabili e costamti con tipi primitivi e definiti dalla libreria standard ( string )
+#### 2. Run 
+
+#### 3. Investigate
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=//%20asssegnazione.cpp%0A%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0Aint%20main%20%28%29%20%7B%0A%20%20%20%20double%20raggio%3D%2010%3B%0A%20%20%20%20double%20area%20%3D%20raggio%20*%20raggio%20*%203.14%3B%0A%20%20%20%20int%20tempo_in_sec%20%3D%20900%3B%0A%20%20%20%20int%20durata_in_minuti%20%3D%20tempo_in_sec%20/%2060%3B%0A%20%20%20%20double%20spazio%20%3D%201000%3B%20//%201%20km%0A%20%20%20%20double%20tempo%20%3D%206%20*%2060%3B%20//%206%20minuti%0A%20%20%20%20double%20velocita%20%3D%20spazio%20/%20tempo%3B%0A%20%20%20%20string%20nome%20%3D%20%22Rossi%22%3B%0A%0Areturn%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
+
+
