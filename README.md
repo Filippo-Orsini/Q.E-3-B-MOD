@@ -19,7 +19,7 @@ import: https://raw.githubusercontent.com/liascript-templates/plantUML/master/RE
 
 # Il linguaggio C++
 
-[Visualizza su LiaScript]([https://raw.githubusercontent.com/Filippo-Orsini/Q.E-3-B-MOD/refs/heads/main/README.md](https://liascript.github.io/course/?https://raw.githubusercontent.com/Filippo-Orsini/Q.E-3-B-MOD/refs/heads/main/README.md#1))
+[Visualizza su LiaScript]((https://liascript.github.io/course/?https://raw.githubusercontent.com/Filippo-Orsini/Q.E-3-B-MOD/refs/heads/main/README.md#1)
 
 Appunti del capitolo 4 del libro di testo pp. 86--121.
 
