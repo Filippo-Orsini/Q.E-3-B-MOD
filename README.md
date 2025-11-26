@@ -33,9 +33,8 @@ Per ogni programma presentato nel testo (pp. 86, 93, 98, 99, 103, 105, 106, 107,
 
 ## Le basi del linguaggio
 
-Es. pag 86
 
-### Programma a pag. 86 - Somma.cpp
+### PROGRAMMA A PAG 86 - Somma.cpp
 
 ``` c +Somma.cpp
 // Somma.cpp
@@ -44,14 +43,15 @@ using namespace std;
 
 int main() {
     int a, b, s;
+    cout << "Immetti un addendo intero: ";
     cin >> a;
-    cout >> "Immmetti un addendo intero";
+    cout << "Immetti un altro addendo intero: ";
     cin >> b;
-    cout >> "Immetti u naltro addendo intero";
     s = a + b;
-    cout << s;
+    cout << "La somma è: " << s << endl;
 
     return 0;
+    
 }
 ```
 @LIA.cpp
@@ -112,7 +112,6 @@ int main() {
     return 0;
 }
 ```
-@LIA.cpp
 
 #### 5. Make (p. 86)
 
@@ -139,7 +138,7 @@ int main() {
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-###Programma a pag. 93 - Tipi.cpp
+##PROGRAMMA A PAG.. 93 - Tipi.cpp
 // Tipi.cpp:dimensioni     dei tipi
 #include <iostream>
 using namespace std;
