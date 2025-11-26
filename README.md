@@ -322,7 +322,7 @@ return 0;
 a è un intero con valore 5, b è un float inizialmente 3.56, ma poi diventa uguale a a (b = a) , quindi b diventerà 5.
 
 #### 2. Run
-Il programma stamperà ill numero 5
+Il programma stamperà il numero 5
 
 #### 3. Investigate 
 
@@ -368,9 +368,272 @@ c assegnazione.cpp
 #include <iostream>
 using namespace std;
 
-int main () {
+int main ()
+{
+    int a = 5;
+    float b = 3.56; 
+    a = b;
+    cout << a;
 
+    return 0;
 }
+
+@Lia.cpp
+
+#### 1. Predict (p.98)
+a è un intero con valore 5, b è un float inizialmente 3.56, ma poi diventa uguale a b (a = b) , quindi b sarà troncato ad 3.
+
+#### 2. Run
+Il programma stamperà il numero 3
+
+##### 3. Investigate
+
+#### 4. Modify
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int a = 5;
+    float b = 3.56;
+
+    a = b; // assegnazione float -> int (troncamento)
+    float somma = a + b; // somma tra int troncato e float
+
+    cout << "a (troncato) = " << a << endl;
+    cout << "b = " << b << endl;
+    cout << "Somma a+b = " << somma << endl;
+
+    return 0;
+}
+
+##### 5. Make
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int a = 7;
+    float b;
+
+    b = a; // int -> float (conversione automatica)
+    float prodotto = a * b;
+
+    cout << "a = " << a << endl;
+    cout << "b (convertito in float) = " << b << endl;
+    cout << "Prodotto a*b = " << prodotto << endl;
+
+    return 0;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 98 - Tipi.cpp
+
+c assegnazione.cpp
+// asssegnazione.cpp
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int a = 5;
+  int b = 2;
+  float c = 3.56;
+  float p;
+  p = a/b + c;
+  cout << p;
+
+  return 0;
+}
+
+##### 1. Predict
+ la divisione a/b dovrà essere 2 e la somma porterà 5.56
+
+ ##### 2. Run
+ il programma stamperà il numero 5.56
+
+ #### 3. Investigate
+
+ #### 4. Modify
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a = 5;
+    int b = 2;
+    float c = 3.56;
+    float p;
+
+    p = float(a)/b + c;  // divisione reale
+    cout << "a/b = " << float(a)/b << endl;
+    cout << "c = " << c << endl;
+    cout << "p = " << p << endl;
+
+    return 0;
+} 
+
+##### 5. Make
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a = 5;
+    int b = 2;
+    float c = 3.56;
+    float p;
+
+    p = (float(a)/b) * c;  
+    cout << p;
+
+    return 0;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 103 - Tipi.cpp
+
+// Parcogiochi.cpp: divisione dei biglietti
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+  // input
+  int biglietti, ragazzi;
+  // output
+  int quota, avanzo;
+
+  cout << "Numero di biglietti e di ragazzi: ";
+  cin >> biglietti >> ragazzi;
+  quota = biglietti / ragazzi;
+  avanzo = biglietti % ragazzi;
+  cout << "Ad ogni ragazzo spettano " << quota << " biglietti " << endl;
+  cput << "e ne avanzano " << avanzo << endl;
+
+  return 0;
+}
+
+##### 1. Predict 
+con quota si troverranno i numeri di biglietti che ha una persona e con l'avanzo è quello che rimane dolo pa divisione dei blieglietti / ragazzi
+
+##### 2. Run
+Il programma farà vedere il risultato trovato
+
+##### 3. Investigate
+##### 4. Modify
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+  int biglietti, ragazzi;
+  int quota, avanzo;
+
+  cout << "Numero di biglietti e di ragazzi: ";
+  cin >> biglietti >> ragazzi;
+
+  quota = biglietti / ragazzi;
+  avanzo = biglietti % ragazzi;
+
+  int distribuiti = quota * ragazzi;
+
+  cout << "Ad ogni ragazzo spettano " << quota << " biglietti " << endl;
+  cout << "e ne avanzano " << avanzo << endl;
+  cout << "Totale biglietti distribuiti: " << distribuiti << endl;
+
+  return 0;
+
+#### 5. Make 
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+  int biglietti, ragazzi;
+  int quota, avanzo;
+
+  cout << "Numero di biglietti e di ragazzi: ";
+  cin >> biglietti >> ragazzi;
+
+  // Calcolo per gruppi di 2 ragazzi
+  quota = biglietti / (2 * ragazzi);
+  avanzo = biglietti % (2 * ragazzi);
+
+  cout << "Ad ogni coppia di ragazzi spettano " << quota << " biglietti " << endl;
+  cout << "e ne avanzano " << avanzo << endl;
+
+  return 0;
+}
+
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 103 - Tipi.cpp
+
+// Quoziente.cpp : divisione di due numeri
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+ int a, b, q;
+ cin >> a >> b;
+ q = a / b;
+ cout << q;
+
+ return 0;
+}
+
+##### 1. Predict
+a, b, avranno due numeri interi e la quota mi darà la divisione dei due numeri
+
+##### 2. Run
+il programma stamperà il valore della quota
+
+#### 3. Investigate 
+
+#### 4. Modify
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int a, b, q, resto;
+    cin >> a >> b;
+    q = a / b;
+    resto = a % b;
+
+    cout << q <<;
+    cout << resto;
+
+    return 0;
+}
+
+#### 5. Make 
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    float a, b, q;
+    cin >> a >> b;
+    q = a / b;
+    cout <<  q;
+
+    return 0;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 106 - Tipi.cpp
+
+
+
+
+
 
 
 
