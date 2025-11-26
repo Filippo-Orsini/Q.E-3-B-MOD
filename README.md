@@ -138,7 +138,8 @@ int main() {
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 93 - Tipi.cpp
+###PROGRAMMA A PAG.. 93 - Tipi.cpp
+
 // Tipi.cpp:dimensioni     dei tipi
 #include <iostream>
 using namespace std;
@@ -232,7 +233,8 @@ int main () {
 
 }
 
-### File.cpp - pag. 94
+### PROGRAMAAZIONE - pag. 94
+
 c assegnazione.cpp
 // asssegnazione.cpp
 #include <iostream>
@@ -425,7 +427,7 @@ int main ()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 98 - Tipi.cpp
+###PROGRAMMA A PAG. 98 - Tipi.cpp
 
 c assegnazione.cpp
 // asssegnazione.cpp
@@ -490,7 +492,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 103 - Tipi.cpp
+###PROGRAMMA A PAG. 103 - Tipi.cpp
 
 // Parcogiochi.cpp: divisione dei biglietti
 #include <iostream>
@@ -568,7 +570,7 @@ int main ()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 103 - Tipi.cpp
+###PROGRAMMA A PAG. 103 - Tipi.cpp
 
 // Quoziente.cpp : divisione di due numeri
 #include <iostream>
@@ -625,7 +627,7 @@ int main ()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 106 - Tipi.cpp
+###PROGRAMMA A PAG. 106 - Tipi.cpp
 
 c assegnazione.cpp
 // Differenza.cpp: differenza tra due numeri 
@@ -688,7 +690,7 @@ int main ()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 107 - Tipi.cpp
+###PROGRAMMA A PAG. 107 - Tipi.cpp
 
 c assegnazione.cpp
 // CalcoloSconto.cpp calcolo del prezzo scontato
@@ -773,7 +775,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 109 - Tipi.cpp
+###PROGRAMMA A PAG. 109 - Tipi.cpp
 
 // Ordina.cpp: due numeri in ordine crescente
 
@@ -802,7 +804,7 @@ return 0;
 Chiede due numeri, controlla quale dei due è più piccolo e li stampa in ordine crescente.
     
     ##### 2. Run
-scriverà i numeri
+Il programma scriverà i numeri naturali in ordine crescente
 
     ##### 3. Investigate 
     ##### 4. Modifiy
@@ -1027,11 +1029,150 @@ int main()
     return 0;
 }
 
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 115 - Tipi.cpp
 
+// Divisione.cpp: divisione tra interi con sottrazioni succesive
 
+#include<iostream>
+using namespace std;
+
+int main() 
+{
+  // input
+  int a, b;
+  // output
+  int quoz = 0;  // quoziente della divisione tra interi
+
+  cout << "Due numeri (dividendo e divisore): ";
+  cin >> a >> b;
+  while (a >= b) {
+     a -=b;
+     quoz++;
+}
+
+cout << "Quoziente = " << quoz << endl;
+cout << "Resto     = " << a << endl;
+
+return 0
+  
+}
+
+    #### 1. Predict
+divisione tra interi usando sottrazioni successive
     
+    #### 2. Run
+Il programma esegue il calcolo
+
+    #### 3. Investigate
+   
+    #### 4. Modify
+#include<iostream>
+using namespace std;
+
+int main() 
+{
+    int a, b;
+    int quoz = 0;
+
+    cout << "Due numeri (dividendo e divisore): ";
+    cin >> a >> b;
+
+    if (b == 0) {
+        cout << "Errore: divisione per zero!" << endl;
+        return 0;
+    }
+
+    while (a >= b) {
+        a -= b;
+        quoz++;
+    }
+
+    cout << quoz << endl;
+    cout << a << endl;
+
+    return 0;
+}
+    
+    #### 5. Make
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, prod = 0;
+
+    cout << "Due numeri: ";
+    cin >> a >> b;
+
+    while (b > 0) {
+        prod += a;
+        b--;
+    }
+
+    cout << "Prodotto = " << prod << endl;
+
+    return 0;
+}
 
 
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 118 - Tipi.cpp
+
+// Doppio.cpp: doppio dei primi 30 numeri naturali
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  for (int i=1; i<=30; i++) {
+      cout << i*2 << endl;
+    
+}
+
+return 0;
+
+}
+
+    ##### 1. Predict
+Il programma dichiara una variabile. Legge il numero e lo moltiplica
+    
+    ##### 2. Run
+Il programma deve stampare il doppio dei numeri naturali da 1 a 30.
+    
+    ##### 3. Inestigate
+    
+    ##### 4. Modify
+// Doppio.cpp: doppio dei primi 30 numeri naturali
+    #include <iostream>
+    using namespace std;
+
+int main()
+{
+    for (int i = 1; i <= 30; i++) {
+    cout << i << " -> " << i*2 << endl;
+}
+  
+    ##### 5. Make
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    for (int i = 1; i <= 20; i++) {
+        cout << i * 3 << endl;
+    }
+
+    return 0;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 118 - Tipi.cpp
+
+// TavolaPitagorica.cpp
 
 
 
