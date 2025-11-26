@@ -1173,6 +1173,304 @@ int main()
 ##PROGRAMMA A PAG.. 118 - Tipi.cpp
 
 // TavolaPitagorica.cpp
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+  for (int r=1; r<=10; r++) {
+     for (int c=1; c<=10; c++) {
+        cout << setw(5) << r*c;
+     }
+     cout << endl;
+}
+
+return 0;
+}
+
+    ##### 1. Predict
+Il programma deve stampare la tavola pitagorica da 1×1 a 10×10
+
+    ##### 2. Run
+Esegue il programma, quindi svolge le moltiplicazioni
+
+    ##### 3. Investigate
+
+    ##### 4. Modify
+
+// TavolaPitagorica.cpp
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    for (int r = 1; r <= 20; r++) {
+        for (int c = 1; c <= 20; c++) {
+            cout << setw(5) << r * c;
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+    cout << "     ";
+for (int c = 1; c <= 10; c++) {
+    cout << setw(5) << c;
+}
+cout << endl;
+
+for (int r=1; r<=10; r++) {
+    cout << setw(3) << r << " | ";
+    for (int c=1; c<=10; c++) {
+        cout << setw(5) << r*c;
+    }
+    cout << endl;
+}
+
+    ##### 5. Make
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout << "Fino a che numero vuoi la tavola pitagorica? ";
+    cin >> n;
+
+    for (int r = 1; r <= n; r++) {
+        for (int c = 1; c <= n; c++) {
+            cout << setw(5) << r*c;
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 119 - Tipi.cpp
+
+// Massimo.ccp: massimo di n numeri
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  // input 
+  int n;                 // numero dei dati inseriti
+  int dato;              // dato inserito
+  // output
+  int max;               // massimo
+
+  cout << " Quanti sono i dati? ";
+  cin >> n;
+  for (int i=1; i<=n; i++) {
+     cout << "Inserisci il "<< i << ". dato: ";
+     cin >> dato;
+     if (i == 1) max = dato;
+     if (dato > max) max = dato;
+}
+
+cout << "Il massimo valore e' " << max << endl;
+
+return 0;
+
+}
+
+    #### 1. Predict
+Il programma deve: chiedere quanti numeri inserire (n),leggere n numeri uno alla volta, confrontarli e tenere il massimo e stampare il numero più grande
+
+    #### 2. Run
+a goni n viene assegnato un valore e trovare il valore massimo
+
+    #### 3. Investigate 
+    
+    #### 4. Modify
+/ Massimo_Minimo_Modify.cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, dato;
+    int max, min;
+
+    cout << "Quanti sono i dati? ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        cout << "Inserisci il " << i << ". dato: ";
+        cin >> dato;
+
+        if (i == 1) {
+            max = dato;
+            min = dato;
+        }
+
+        if (dato > max) max = dato;
+        if (dato < min) min = dato;
+    }
+
+    cout << "Massimo = " << max << endl;
+    cout << "Minimo  = " << min << endl;
+
+    return 0;
+}
+
+    #### 5. Make
+// Media.cpp: calcola la media di n numeri
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, dato;
+    int somma = 0;
+
+    cout << "Quanti numeri vuoi inserire? ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        cout << "Inserisci il " << i << ". numero: ";
+        cin >> dato;
+        somma += dato;
+    }
+
+    cout << "La media è: " << (somma / (float)n) << endl;
+
+    return 0;
+}
+
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 121 - Tipi.cpp
+
+// ScontoProgressivo.cpp: sconto progressivo sui prodotti
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // input
+    float prezzo;                 // prezzo del prodotto 
+    int pezzi;                    // pezzi acquistati 
+    // output
+    float importo;                // importo da pagare 
+    // lavoro
+    int sconto;                   // percentuale di sconto
+
+    cout << "Pezzi acquistati: ";
+    cin >> pezzi;
+    cout << "Prezzo del prodotto: ";
+    cin >> prezzo;
+    switch(pezzi) {
+    case 1:
+    case 2:
+    case 3:
+       sconto = 5;
+       break;
+case 4:
+case 5:
+       sconto = 10;
+       break;
+case 6:
+case 7:
+case 8:
+case 9:
+case 10:
+       sconto = 20;
+       break;
+default:
+       sconto = 30;
+}
+importo = pezzi * prezzo * (100.0-sconto)/100.0;
+cout << "Importo da pagare = " << importo << endl;
+return 0;
+}
+
+    #### 1. Predict
+Il programma,leggerà quanti pezzi vengono acquistati poi legge il prezzo di un singolo prodotto e in base al numero di pezzi, assegna una percentuale di sconto:
+    
+    #### 2. Run 
+il programma esegue il codice e troverà l'importo da pagare
+    
+    #### 3. Inevstigate
+    
+    #### 4. Modify
+    // ScontoProgressivo_Modify.cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float prezzo;
+    int pezzi;
+    float importo;
+    int sconto;
+
+    cout << "Pezzi acquistati: ";
+    cin >> pezzi;
+    cout << "Prezzo del prodotto: ";
+    cin >> prezzo;
+
+    switch(pezzi) {
+        case 1:
+        case 2:
+        case 3: sconto = 5;  break;
+        case 4:
+        case 5: sconto = 10; break;
+        case 6:
+        case 7:
+        case 8:
+        case 9:
+        case 10: sconto = 20; break;
+        default: sconto = 30;
+    }
+
+    importo = pezzi * prezzo * (100.0 - sconto) / 100.0;
+
+    cout << sconto << endl;
+    cout << importo << endl;
+
+    return 0;
+}
+    
+    #### 5. Make
+
+// ScontoImporto.cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float importo;
+    int sconto;
+
+    cout << "Totale spesa: ";
+    cin >> importo;
+
+    if (importo < 50)        sconto = 5;
+    else if (importo < 100)  sconto = 10;
+    else if (importo < 200)  sconto = 15;
+    else                     sconto = 25;
+
+    float finale = importo * (100 - sconto) / 100.0;
+
+    cout << "Sconto applicato = " << sconto << "%" << endl;
+    cout << "Importo finale = " << finale << endl;
+
+    return 0;
+}
+
+
+
 
 
 
