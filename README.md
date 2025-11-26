@@ -259,13 +259,44 @@ Il programma dichiara di avere alcuni variabili e costamti con tipi primitivi e 
 #### 2. Run l'esecuzione conferma quanto scritto del predict
 
 #### 3. Investigate
+
+Per usare PythonTutor devo impostare dei valori alle variabili di input.
+
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=//%20asssegnazione.cpp%0A%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0Aint%20main%20%28%29%20%7B%0A%20%20%20%20double%20raggio%3D%2010%3B%0A%20%20%20%20double%20area%20%3D%20raggio%20*%20raggio%20*%203.14%3B%0A%20%20%20%20int%20tempo_in_sec%20%3D%20900%3B%0A%20%20%20%20int%20durata_in_minuti%20%3D%20tempo_in_sec%20/%2060%3B%0A%20%20%20%20double%20spazio%20%3D%201000%3B%20//%201%20km%0A%20%20%20%20double%20tempo%20%3D%206%20*%2060%3B%20//%206%20minuti%0A%20%20%20%20double%20velocita%20%3D%20spazio%20/%20tempo%3B%0A%20%20%20%20string%20nome%20%3D%20%22Rossi%22%3B%0A%0Areturn%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 ### 4. Modify
-// calcolo 
-s = a + b;
-int eta;  //età di una persona
+// Calcolo dell'età
+    int anno_nascita = 2005;
+    int anno_corrente = 2025;
+    int eta = anno_corrente - anno_nascita;
+
+    cout << "Nome: " << nome << endl;
+    cout << "Età: " << eta << " anni" << endl;
+}
 ### 5. Make
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    string nome = "Rossi";
+    double altezza = 1.75; // metri
+    double peso = 70;       // kg
+
+    double imc = peso / (altezza * altezza);
+
+    int anno_nascita = 2005;
+    int anno_corrente = 2025;
+    int eta = anno_corrente - anno_nascita;
+
+    cout << "Nome: " << nome << endl;
+    cout << "Età: " << eta << " anni" << endl;
+    cout << "IMC: " << imc << endl;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 98 - Tipi.cpp
 
 
 
@@ -279,15 +310,71 @@ int main ()
 {
     int a= 5;
     float b = 3.56;
-    b= a;
+    b = a;
     cout << b;
 
-returno 0;
+return 0;
 }
 
 @LIA.cpp
 
-### 1. Predict (p.98)
+#### 1. Predict (p.98)
+a è un intero con valore 5, b è un float inizialmente 3.56, ma poi diventa uguale a a (b = a) , quindi b diventerà 5.
+
+#### 2. Run
+Il programma stamperà ill numero 5
+
+#### 3. Investigate 
+
+#### 4. Modify
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int a = 5;
+    float b = 3.56;
+    b = a;
+
+    float somma = a + b;
+    cout << "b = " << b << endl;
+    cout << "Somma a+b = " << somma << endl;
+
+    return 0;
+}
+
+##### 5. Make 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a = 7.5;
+    float b = 2.5;
+
+    float risultato = a / b;
+
+    cout << "Risultato della divisione: " << risultato << endl;
+
+    return 0;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 98 - Tipi.cpp
+
+c assegnazione.cpp
+// asssegnazione.cpp
+#include <iostream>
+using namespace std;
+
+int main () {
+
+}
+
+
+
+
 
 
 
