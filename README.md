@@ -143,16 +143,17 @@ int main() {
 #include <iostream>
 using namespace std;
 
-int main () {
+int main() {
     cout << "Dimensioni di int: " << sizeof(int) << " byte\n";
-    cout << "Dimensioni di short int: " << sizeof(short int) << " byte\n;
-    cout << "Dimensioni di long int: " << sizeof(long int) << " byte\n; 
-    cout << "Dimensioni di long long int: " << sizeof(long long int) << " byte\n;
-    cout << "Dimensioni di float: " << sizeof(float) << " byte\n; 
-    cout << "Dimensioni di double: " << sizeof(double) << " byte\n;
-    cout << "Dimensioni di long double " << sizeof(long double) << " byte\n;
-    cout << "Dimensioni di char " << sizeof(chair) << " byte\n;
-    cout << "Dimensioni di bool " << sizeof(bool) << " byte\n;
+    cout << "Dimensioni di short int: " << sizeof(short int) << " byte\n";
+    cout << "Dimensioni di long int: " << sizeof(long int) << " byte\n";
+    cout << "Dimensioni di long long int: " << sizeof(long long int) << " byte\n";
+    cout << "Dimensioni di float: " << sizeof(float) << " byte\n";
+    cout << "Dimensioni di double: " << sizeof(double) << " byte\n";
+    cout << "Dimensioni di long double: " << sizeof(long double) << " byte\n";
+    cout << "Dimensioni di char: " << sizeof(char) << " byte\n";
+    cout << "Dimensioni di bool: " << sizeof(bool) << " byte\n";
+
     return 0;
 }
 
@@ -160,12 +161,74 @@ int main () {
 
 ##### 1. Predict (p. 93)
 
-//Somma . cpp
+Il programma stamperà sullo schermo la dimensione in byte dei vari tipi di dato in C++
+
+##### 2. Run (p. 93)
+
+eseguire il codice e osservare le dimensioni in byte dei diversi tipi di dato che vengono visualizzate riga per riga
+
+#### 3. Investigate
+
 #include <iostream>
 using namespace std;
 
-int main() {
+int main () {
+    cout << "Dimensioni di int: " << sizeof(int) << " byte\n";
+    cout << "Dimensioni di short int: " << sizeof(short int) << " byte\n";
+    cout << "Dimensioni di long int: " << sizeof(long int) << " byte\n";
+    cout << "Dimensioni di long long int: " << sizeof(long long int) << " byte\n";
+    cout << "Dimensioni di float: " << sizeof(float) << " byte\n";
+    cout << "Dimensioni di double: " << sizeof(double) << " byte\n";
+    cout << "Dimensioni di long double: " << sizeof(long double) << " byte\n";
+    cout << "Dimensioni di char: " << sizeof(char) << " byte\n";
+    cout << "Dimensioni di bool: " << sizeof(bool) << " byte\n";
+    return 0;
+}
 
+#### 4. Modify
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    cout << "=== Dimensioni dei tipi di dato in C++ ===\n\n";
+
+    cout << "int: " << sizeof(int) << " byte\n";
+    cout << "short int: " << sizeof(short int) << " byte\n";
+    cout << "long int: " << sizeof(long int) << " byte\n";
+    cout << "long long int: " << sizeof(long long int) << " byte\n";
+    cout << "float: " << sizeof(float) << " byte\n";
+    cout << "double: " << sizeof(double) << " byte\n";
+    cout << "long double: " << sizeof(long double) << " byte\n";
+    cout << "char: " << sizeof(char) << " byte\n";
+    cout << "bool: " << sizeof(bool) << " byte\n";
+    cout << "unsigned int: " << sizeof(unsigned int) << " byte\n";
+
+    return 0;
+
+#### 5. Make
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    cout << "Dimensioni dei tipi signed:\n";
+    cout << "int: " << sizeof(int) << " byte\n";
+    cout << "short int: " << sizeof(short int) << " byte\n";
+    cout << "long int: " << sizeof(long int) << " byte\n";
+    cout << "long long int: " << sizeof(long long int) << " byte\n";
+    cout << "float: " << sizeof(float) << " byte\n";
+    cout << "double: " << sizeof(double) << " byte\n";
+    cout << "long double: " << sizeof(long double) << " byte\n";
+    cout << "char: " << sizeof(char) << " byte\n";
+    cout << "bool: " << sizeof(bool) << " byte\n\n";
+
+    cout << "Dimensioni dei tipi unsigned:\n";
+    cout << "unsigned int: " << sizeof(unsigned int) << " byte\n";
+    cout << "unsigned short int: " << sizeof(unsigned short int) << " byte\n";
+    cout << "unsigned long int: " << sizeof(unsigned long int) << " byte\n";
+
+    return 0;
 
 }
 
