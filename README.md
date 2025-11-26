@@ -771,6 +771,266 @@ int main()
     return 0;
 }
 
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 109 - Tipi.cpp
+
+// Ordina.cpp: due numeri in ordine crescente
+
+#include<iostream>
+using namespace std;
+
+int main() 
+{
+  //input
+  int a, b;
+
+  cout << "Due numeri: ";
+  cin >> a >> b;
+  if (a < b) {
+     cout << a << endl;
+     cout << b << endl;
+}
+else {
+     cout << b << endl;
+     cout << a << endl;
+}
+return 0;
+}
+
+    ##### 1. Predict
+Chiede due numeri, controlla quale dei due è più piccolo e li stampa in ordine crescente.
+    
+    ##### 2. Run
+scriverà i numeri
+
+    ##### 3. Investigate 
+    ##### 4. Modifiy
+
+    #include<iostream>
+using namespace std;
+
+int main() 
+{
+    int a, b;
+
+    cout << "Due numeri: ";
+    cin >> a >> b;
+
+    if (a < b) {
+        cout << a << endl;
+        cout << b << endl;
+    }
+    else if (a > b) {
+        cout << b << endl;
+        cout << a << endl;
+    }
+    else {
+        cout << "I due numeri sono uguali: " << a << endl;
+    }
+
+    return 0;
+}
+       
+    ##### 5. Make
+ #include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a, b, c;
+
+    cout << "Tre numeri: ";
+    cin >> a >> b >> c;
+
+    // Ordine crescente
+    if (a > b) swap(a, b);
+    if (a > c) swap(a, c);
+    if (b > c) swap(b, c);
+
+    cout << a << endl;
+    cout << b << endl;
+    cout << c << endl;
+
+    return 0;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 110 - Tipi.cpp
+
+// TreXDue.cpp: offerta 3 x 2
+
+#include<iostream>
+using namespace std;
+
+int main() 
+{
+  // input
+  float prezzo;
+  int qta;
+  // output
+  float importo;
+
+  cout << "Prezzo e quantità': ";
+  cin >> prezzo >> qta;
+  if (qta == 3) qta = 2;
+  importo = prezzo * qta;
+  cout << "Importo da pagare = " << importo << endl;
+
+  return 0;
+}
+
+    ##### 1. Predict
+Il programma applica l’offerta 3×2,quindi se compri 3 pezzi, ne paghi solo 2.
+    
+    ##### 2. Run
+il programma produce il risultato previsto.
+   
+    ##### 3. Predict
+   
+    ##### 4. Predict
+    #include<iostream>
+using namespace std;
+
+int main() 
+{
+    float prezzo;
+    int qta;
+    float importo;
+
+    cout << "Prezzo e quantita': ";
+    cin >> prezzo >> qta;
+
+    if (qta == 3) {
+        cout << "Offerta 3x2 applicata!" << endl;
+        qta = 2;
+    }
+
+    importo = prezzo * qta;
+    cout << "Importo da pagare = " << importo << endl;
+
+    return 0;
+}
+   
+    ##### 5. Predict
+    #include<iostream>
+using namespace std;
+
+int main()
+{
+    float prezzo;
+    int qta;
+    float importo;
+
+    cout << "Prezzo e quantita': ";
+    cin >> prezzo >> qta;
+
+    // Offerta 3x2
+    if (qta == 3) 
+        qta = 2;
+
+    importo = prezzo * qta;
+
+    // Sconto aggiuntivo
+    if (importo > 20) {
+        importo = importo * 0.90; // 10% di sconto
+    }
+
+    cout << "Importo finale = " << importo << endl;
+
+    return 0;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 112 - Tipi.cpp
+
+// Prodotto.cpp: prodotto di due numeri
+
+#include<iostream>
+using namespace std;
+
+int main () 
+{
+  // input 
+  int a, b;
+  // output
+  int prod = 0;
+
+  cout << "Due numeri: ";
+  cin >> a >> b;
+  do {
+     prod += a;
+     b--;
+  } while (b > 0 );
+
+  cout << "Prodotto = " << prood << endl;
+
+  return 0;
+}
+
+    #### 1. Predict
+Il programma calcola il prodotto
+    
+    #### 2. Run
+Il programma stamperà il risultato
+    #### 3. Investigate
+   
+    #### 4. Modify
+
+    
+#include<iostream>
+using namespace std;
+
+int main () 
+{
+    int a, b;
+    int prod = 0;
+
+    cout << "Due numeri: ";
+    cin >> a >> b;
+
+    if (b <= 0) {
+        cout << "La quantità deve essere maggiore di 0!" << endl;
+        return 0;
+    }
+
+    do {
+        prod += a;
+        b--;
+    } while (b > 0);
+
+    cout << "Prodotto = " << prod << endl;
+
+    return 0;
+}
+    
+    #### 5. Make
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, quoziente = 0;
+
+    cout << "Due numeri: ";
+    cin >> a >> b;
+
+    while (a >= b) {
+        a -= b;
+        quoziente++;
+    }
+
+    cout << "Quoziente = " << quoziente << endl;
+
+    return 0;
+}
+
+
+
+    
+
 
 
 
