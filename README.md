@@ -360,7 +360,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 98 - Tipi.cpp
+###PROGRAMMA A PAG. 98 - Tipi.cpp
 
 c assegnazione.cpp
 // asssegnazione.cpp
@@ -446,6 +446,8 @@ int main()
   return 0;
 }
 
+@Lia.cpp
+
     ##### 1. Predict
  la divisione a/b dovrà essere 2 e la somma porterà 5.56
 
@@ -514,6 +516,8 @@ int main ()
 
   return 0;
 }
+
+@Lia.cpp
 
     ##### 1. Predict 
 con quota si troverranno i numeri di biglietti che ha una persona e con l'avanzo è quello che rimane dolo pa divisione dei blieglietti / ragazzi
@@ -586,6 +590,8 @@ int main ()
  return 0;
 }
 
+@Lia.cpp
+
     ##### 1. Predict
 a, b, avranno due numeri interi e la quota mi darà la divisione dei due numeri
 
@@ -643,6 +649,8 @@ cout << "Risultato = " << differenza << endl return 0;
 
 return 0
 }
+
+@Lia.cpp
 
     ##### 1. Predict
 quando verranno dati i valori a num1, num2, si torverà il valore della differenza
@@ -717,7 +725,7 @@ int main()
   return o;
 }
 
-@LIA.cpp
+@Lia.cpp
 
     #### 1. Predict
 gli verrà dato la descrizione dell'oggetto e il prezzo
@@ -800,6 +808,9 @@ else {
 return 0;
 }
 
+@Lia.cpp
+
+
     ##### 1. Predict
 Chiede due numeri, controlla quale dei due è più piccolo e li stampa in ordine crescente.
     
@@ -859,7 +870,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 110 - Tipi.cpp
+###PROGRAMMA A PAG. 110 - Tipi.cpp
 
 // TreXDue.cpp: offerta 3 x 2
 
@@ -882,6 +893,8 @@ int main()
 
   return 0;
 }
+
+@Lia.cpp
 
     ##### 1. Predict
 Il programma applica l’offerta 3×2,quindi se compri 3 pezzi, ne paghi solo 2.
@@ -946,7 +959,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 112 - Tipi.cpp
+###PROGRAMMA A PAG. 112 - Tipi.cpp
 
 // Prodotto.cpp: prodotto di due numeri
 
@@ -971,6 +984,8 @@ int main ()
 
   return 0;
 }
+
+@Lia.cpp
 
     #### 1. Predict
 Il programma calcola il prodotto
@@ -1031,7 +1046,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 115 - Tipi.cpp
+###PROGRAMMA A PAG.. 115 - Tipi.cpp
 
 // Divisione.cpp: divisione tra interi con sottrazioni succesive
 
@@ -1058,6 +1073,8 @@ cout << "Resto     = " << a << endl;
 return 0
   
 }
+
+@Lia.cpp
 
     #### 1. Predict
 divisione tra interi usando sottrazioni successive
@@ -1119,7 +1136,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 118 - Tipi.cpp
+##PROGRAMMA A PAG. 118 - Tipi.cpp
 
 // Doppio.cpp: doppio dei primi 30 numeri naturali
 #include <iostream>
@@ -1135,6 +1152,9 @@ int main()
 return 0;
 
 }
+
+@Lia.cpp
+
 
     ##### 1. Predict
 Il programma dichiara una variabile. Legge il numero e lo moltiplica
@@ -1170,7 +1190,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 118 - Tipi.cpp
+###PROGRAMMA A PAG. 118 - Tipi.cpp
 
 // TavolaPitagorica.cpp
 #include <iostream>
@@ -1187,6 +1207,9 @@ int main()
 
 return 0;
 }
+
+@Lia.cpp
+
 
     ##### 1. Predict
 Il programma deve stampare la tavola pitagorica da 1×1 a 10×10
@@ -1251,7 +1274,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 119 - Tipi.cpp
+###PROGRAMMA A PAG. 119 - Tipi.cpp
 
 // Massimo.ccp: massimo di n numeri
 
@@ -1280,6 +1303,9 @@ cout << "Il massimo valore e' " << max << endl;
 return 0;
 
 }
+
+@Lia.cpp
+
 
     #### 1. Predict
 Il programma deve: chiedere quanti numeri inserire (n),leggere n numeri uno alla volta, confrontarli e tenere il massimo e stampare il numero più grande
@@ -1349,7 +1375,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-##PROGRAMMA A PAG.. 121 - Tipi.cpp
+###PROGRAMMA A PAG. 121 - Tipi.cpp
 
 // ScontoProgressivo.cpp: sconto progressivo sui prodotti
 
@@ -1394,6 +1420,9 @@ importo = pezzi * prezzo * (100.0-sconto)/100.0;
 cout << "Importo da pagare = " << importo << endl;
 return 0;
 }
+
+@Lia.cpp
+
 
     #### 1. Predict
 Il programma,leggerà quanti pezzi vengono acquistati poi legge il prezzo di un singolo prodotto e in base al numero di pezzi, assegna una percentuale di sconto:
