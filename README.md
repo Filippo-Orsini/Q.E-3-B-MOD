@@ -56,16 +56,16 @@ int main() {
 ```
 @LIA.cpp
 
-#### 1. Predict (p. 86)
+    #### 1. Predict (p. 86)
 
 Il programma dichiara tre variabili intere, `a`, `b` e `s`.
 Legge due numeri interi dati in ingresso memorizzandoli nelle variabili `a` e `b`, calcola la somma di queste due variabili memorizzandola in `s` e ne stampa il valore.
 
-#### 2. Run (p. 86)
+    #### 2. Run (p. 86)
 
 Il programma conferma la previsione
 
-#### 3. Investigate (p. 86)
+    #### 3. Investigate (p. 86)
 
 ``` cpp +Somma.cpp
 // Somma.cpp
@@ -91,7 +91,7 @@ Uso 1 e 2.
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20int%20a,%20b,%20s%3B%0A%20%20%20%20//cin%20%3E%3E%20a%3B%0A%20%20%20%20a%20%3D%201%3B%0A%20%20%20%20//cin%20%3E%3E%20b%3B%0A%20%20%20%20b%20%3D%202%3B%0A%20%20%20%20s%20%3D%20a%20%2B%20b%3B%0A%20%20%20%20cout%20%3C%3C%20s%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 
-#### 4. Modify  (p. 86)
+    #### 4. Modify  (p. 86)
 
 Voglio aggiungere informazioni all'utente per comunicare di immettere i numeri intero, voglio essere più descrittivo e andare a capo nell'output.
 
@@ -113,7 +113,7 @@ int main() {
 }
 ```
 
-#### 5. Make (p. 86)
+    #### 5. Make (p. 86)
 
 Scrivo un nuovo programma che calcola il prodotto.
 
@@ -159,15 +159,15 @@ int main() {
 
 @LIA.cpp
 
-##### 1. Predict (p. 93)
+    ##### 1. Predict (p. 93)
 
 Il programma stamperà sullo schermo la dimensione in byte dei vari tipi di dato in C++
 
-##### 2. Run (p. 93)
+    ##### 2. Run (p. 93)
 
 eseguire il codice e osservare le dimensioni in byte dei diversi tipi di dato che vengono visualizzate riga per riga
 
-#### 3. Investigate
+    #### 3. Investigate
 
 #include <iostream>
 using namespace std;
@@ -185,7 +185,7 @@ int main () {
     return 0;
 }
 
-#### 4. Modify
+    #### 4. Modify
 
 #include <iostream>
 using namespace std;
@@ -206,7 +206,7 @@ int main () {
 
     return 0;
 
-#### 5. Make
+    #### 5. Make
 
 #include <iostream>
 using namespace std;
@@ -253,18 +253,18 @@ returno 0;
 
 @LIA.cpp
 
-#### 1. Predict (p. 94)
+    #### 1. Predict (p. 94)
 Il programma dichiara di avere alcuni variabili e costamti con tipi primitivi e definiti dalla libreria standard ( string )
 
-#### 2. Run l'esecuzione conferma quanto scritto del predict
+    #### 2. Run l'esecuzione conferma quanto scritto del predict
 
-#### 3. Investigate
+    #### 3. Investigate
 
 Per usare PythonTutor devo impostare dei valori alle variabili di input.
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=//%20asssegnazione.cpp%0A%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0Aint%20main%20%28%29%20%7B%0A%20%20%20%20double%20raggio%3D%2010%3B%0A%20%20%20%20double%20area%20%3D%20raggio%20*%20raggio%20*%203.14%3B%0A%20%20%20%20int%20tempo_in_sec%20%3D%20900%3B%0A%20%20%20%20int%20durata_in_minuti%20%3D%20tempo_in_sec%20/%2060%3B%0A%20%20%20%20double%20spazio%20%3D%201000%3B%20//%201%20km%0A%20%20%20%20double%20tempo%20%3D%206%20*%2060%3B%20//%206%20minuti%0A%20%20%20%20double%20velocita%20%3D%20spazio%20/%20tempo%3B%0A%20%20%20%20string%20nome%20%3D%20%22Rossi%22%3B%0A%0Areturn%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-### 4. Modify
+    #### 4. Modify
 // Calcolo dell'età
     int anno_nascita = 2005;
     int anno_corrente = 2025;
@@ -273,7 +273,8 @@ Per usare PythonTutor devo impostare dei valori alle variabili di input.
     cout << "Nome: " << nome << endl;
     cout << "Età: " << eta << " anni" << endl;
 }
-### 5. Make
+
+    #### 5. Make
 
 #include <iostream>
 using namespace std;
@@ -297,10 +298,6 @@ int main () {
 #Il linguaggio C++
 ##Le basi del linguaggio
 ##PROGRAMMA A PAG.. 98 - Tipi.cpp
-
-
-
-### File.cpp - pag. 98
 c assegnazione.cpp
 // asssegnazione.cpp
 #include <iostream>
@@ -318,15 +315,15 @@ return 0;
 
 @LIA.cpp
 
-#### 1. Predict (p.98)
+    #### 1. Predict (p.98)
 a è un intero con valore 5, b è un float inizialmente 3.56, ma poi diventa uguale a a (b = a) , quindi b diventerà 5.
 
-#### 2. Run
+    #### 2. Run
 Il programma stamperà il numero 5
 
-#### 3. Investigate 
+    #### 3. Investigate 
 
-#### 4. Modify
+    #### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -343,7 +340,7 @@ int main ()
     return 0;
 }
 
-##### 5. Make 
+    ##### 5. Make 
 #include <iostream>
 using namespace std;
 
@@ -380,15 +377,15 @@ int main ()
 
 @Lia.cpp
 
-#### 1. Predict (p.98)
+    #### 1. Predict (p.98)
 a è un intero con valore 5, b è un float inizialmente 3.56, ma poi diventa uguale a b (a = b) , quindi b sarà troncato ad 3.
 
-#### 2. Run
+    #### 2. Run
 Il programma stamperà il numero 3
 
-##### 3. Investigate
+    ##### 3. Investigate
 
-#### 4. Modify
+    #### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -407,7 +404,7 @@ int main ()
     return 0;
 }
 
-##### 5. Make
+    ##### 5. Make
 #include <iostream>
 using namespace std;
 
@@ -447,15 +444,15 @@ int main()
   return 0;
 }
 
-##### 1. Predict
+    ##### 1. Predict
  la divisione a/b dovrà essere 2 e la somma porterà 5.56
 
- ##### 2. Run
+    ##### 2. Run
  il programma stamperà il numero 5.56
 
- #### 3. Investigate
+    #### 3. Investigate
 
- #### 4. Modify
+    #### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -474,7 +471,7 @@ int main()
     return 0;
 } 
 
-##### 5. Make
+    ##### 5. Make
 #include <iostream>
 using namespace std;
 
@@ -516,14 +513,14 @@ int main ()
   return 0;
 }
 
-##### 1. Predict 
+    ##### 1. Predict 
 con quota si troverranno i numeri di biglietti che ha una persona e con l'avanzo è quello che rimane dolo pa divisione dei blieglietti / ragazzi
 
-##### 2. Run
+    ##### 2. Run
 Il programma farà vedere il risultato trovato
 
-##### 3. Investigate
-##### 4. Modify
+    ##### 3. Investigate
+    ##### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -546,7 +543,7 @@ int main ()
 
   return 0;
 
-#### 5. Make 
+    #### 5. Make 
 #include <iostream>
 using namespace std;
 
@@ -587,15 +584,15 @@ int main ()
  return 0;
 }
 
-##### 1. Predict
+    ##### 1. Predict
 a, b, avranno due numeri interi e la quota mi darà la divisione dei due numeri
 
-##### 2. Run
+    ##### 2. Run
 il programma stamperà il valore della quota
 
-#### 3. Investigate 
+    #### 3. Investigate 
 
-#### 4. Modify
+    #### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -612,7 +609,7 @@ int main ()
     return 0;
 }
 
-#### 5. Make 
+    #### 5. Make 
 #include <iostream>
 using namespace std;
 
@@ -645,15 +642,15 @@ cout << "Risultato = " << differenza << endl return 0;
 return 0
 }
 
-##### 1. Predict
+    ##### 1. Predict
 quando verranno dati i valori a num1, num2, si torverà il valore della differenza
 
-##### 2. Run
+    ##### 2. Run
 Il programma scirverà l'equivalente della differenza
 
-##### 3. Investigate
+    ##### 3. Investigate
 
-##### 4. Modify
+    ##### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -669,7 +666,8 @@ int main ()
 
     return 0;
 } 
-##### 5. Make
+        
+    ##### 5. Make
 #include <iostream>
 using namespace std;
 
@@ -719,12 +717,14 @@ int main()
 
 @LIA.cpp
 
-#### 1. Predict
+    #### 1. Predict
 gli verrà dato la descrizione dell'oggetto e il prezzo
-#### 2. Run
+    
+    #### 2. Run
 il programma stamperà la descrizione e il suo valore
-#### 3. Investigate
-#### 4. Modify
+    
+    #### 3. Investigate
+    #### 4. Modify
 #include <iostream>
 #include <string>
 using namespace std;
@@ -748,7 +748,8 @@ int main()
 
     return 0;
 }
-#### 5. Make
+     
+    #### 5. Make
 #include <iostream>
 #include <string>
 using namespace std;
