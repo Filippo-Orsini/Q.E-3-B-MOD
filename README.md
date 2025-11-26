@@ -630,7 +630,145 @@ int main ()
 ##Le basi del linguaggio
 ##PROGRAMMA A PAG.. 106 - Tipi.cpp
 
+c assegnazione.cpp
+// Differenza.cpp: differenza tra due numeri 
+#include <iostream>
+using namespace std;
+int main () 
+{
+int num1, num2, differenza 
+cout << "Due numeri: "; 
+cin >> num1 >> num2; 
+differenza = num1 - num2;
+cout << "Risultato = " << differenza << endl return 0;
 
+return 0
+}
+
+##### 1. Predict
+quando verranno dati i valori a num1, num2, si torverà il valore della differenza
+
+##### 2. Run
+Il programma scirverà l'equivalente della differenza
+
+##### 3. Investigate
+
+##### 4. Modify
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int num1, num2, differenza;
+    cout << "Due numeri: ";
+    cin >> num1 >> num2;
+    differenza = num1 - num2;
+
+    cout << "Differenza = " << differenza << endl;
+    cout << "Differenza assoluta = " << abs(differenza) << endl;
+
+    return 0;
+} 
+##### 5. Make
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int num1, num2, somma, differenza;
+    cout << "Due numeri: ";
+    cin >> num1 >> num2;
+
+    somma = num1 + num2;
+    differenza = num1 - num2;
+
+    cout <<  somma ;
+    cout <<differenza;
+
+    return 0;
+}
+
+#Il linguaggio C++
+##Le basi del linguaggio
+##PROGRAMMA A PAG.. 107 - Tipi.cpp
+
+c assegnazione.cpp
+// CalcoloSconto.cpp calcolo del prezzo scontato
+ #include <iostream>
+ #include <string>
+
+using  namespace std;
+const int PERC = 20;
+
+int main() 
+{
+  // variabili di input-output
+  string descrizione;
+  float prezzo;
+  // variabili di lavoro 
+  float sconto;
+
+  cout << "Descrizione e prezzo: ";
+  cin >> descrizione >> prezzo;
+  sconto = prezzo * PERC / 100;
+  prezzo = prezzo - sconto;
+  cout << descrizione << ":" << prezzo << endl;
+
+  return o;
+}
+
+@LIA.cpp
+
+#### 1. Predict
+gli verrà dato la descrizione dell'oggetto e il prezzo
+#### 2. Run
+il programma stamperà la descrizione e il suo valore
+#### 3. Investigate
+#### 4. Modify
+#include <iostream>
+#include <string>
+using namespace std;
+
+const int PERC = 20;
+
+int main() 
+{
+    string descrizione;
+    float prezzo;
+    float sconto;
+
+    cout << "Descrizione e prezzo: ";
+    cin >> descrizione >> prezzo;
+
+    sconto = prezzo * PERC / 100;
+    prezzo = prezzo - sconto;
+
+    cout << descrizione << ":" << prezzo << endl;
+    cout << "Sconto applicato: " << sconto << endl;
+
+    return 0;
+}
+#### 5. Make
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+    string descrizione;
+    float prezzo, scontoPerc, sconto;
+
+    cout << "Descrizione, prezzo e percentuale di sconto: ";
+    cin >> descrizione >> prezzo >> scontoPerc;
+
+    sconto = prezzo * sconto Perc / 100;
+    prezzo = prezzo - sconto;
+
+    cout << descrizione << ":" << prezzo << endl;
+    cout << "Sconto applicato: " << sconto << endl;
+
+    return 0;
+}
 
 
 
