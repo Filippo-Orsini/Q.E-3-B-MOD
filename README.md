@@ -329,6 +329,9 @@ Il programma stamperà il numero 5
 #### 3. Investigate 
 
 #### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -344,8 +347,13 @@ int main ()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ##### 5. Make 
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -360,11 +368,12 @@ int main()
 
     return 0;
 }
-
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 98 - Tipi.cpp
 
-c assegnazione.cpp
+```c assegnazione.cpp
 // asssegnazione.cpp
 #include <iostream>
 using namespace std;
@@ -378,8 +387,8 @@ int main ()
 
     return 0;
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 #### 1. Predict (p.98)
 a è un intero con valore 5, b è un float inizialmente 3.56, ma poi diventa uguale a b (a = b) , quindi b sarà troncato ad 3.
@@ -390,6 +399,8 @@ Il programma stamperà il numero 3
 ##### 3. Investigate
 
 #### 4. Modify
+```c assegnazione.cpp
+// assegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -407,8 +418,13 @@ int main ()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ##### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -426,10 +442,12 @@ int main ()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 99 - Tipi.cpp
 
-c assegnazione.cpp
+```c assegnazione.cpp
 // asssegnazione.cpp
 #include <iostream>
 using namespace std;
@@ -446,8 +464,8 @@ int main()
   return 0;
 }
 
-
-@Lia.cpp
+```
+@LIA.cpp
 
 ##### 1. Predict
  la divisione a/b dovrà essere 2 e la somma porterà 5.56
@@ -458,6 +476,9 @@ int main()
 #### 3. Investigate
 
 #### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -475,8 +496,13 @@ int main()
 
     return 0;
 } 
+```
+@LIA.cpp
 
 ##### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -492,9 +518,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 103 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Parcogiochi.cpp: divisione dei biglietti
 #include <iostream>
 using namespace std;
@@ -515,17 +545,20 @@ int main ()
 
   return 0;
 }
-
-@Lia.cpp
-
-##### 1. Predict 
+```
+@LIA.cpp
+ 
+#### 1. Predict 
 con quota si troverranno i numeri di biglietti che ha una persona e con l'avanzo è quello che rimane dolo pa divisione dei blieglietti / ragazzi
 
-##### 2. Run
+#### 2. Run
 Il programma farà vedere il risultato trovato
 
-##### 3. Investigate
-##### 4. Modify
+#### 3. Investigate
+#### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -549,6 +582,9 @@ int main ()
   return 0;
 
 #### 5. Make 
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -569,9 +605,13 @@ int main ()
 
   return 0;
 }
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 103 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Quoziente.cpp : divisione di due numeri
 #include <iostream>
 using namespace std;
@@ -585,18 +625,21 @@ int main ()
 
  return 0;
 }
+```
+@LIA.cpp
 
-@Lia.cpp
-
-##### 1. Predict
+#### 1. Predict
 a, b, avranno due numeri interi e la quota mi darà la divisione dei due numeri
 
-##### 2. Run
+#### 2. Run
 il programma stamperà il valore della quota
 
 #### 3. Investigate 
 
 #### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -612,8 +655,13 @@ int main ()
 
     return 0;
 }
+```
+@LIA.cpp
 
 #### 5. Make 
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -626,10 +674,13 @@ int main ()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 106 - Tipi.cpp
 
-c assegnazione.cpp
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Differenza.cpp: differenza tra due numeri 
 #include <iostream>
 using namespace std;
@@ -643,8 +694,8 @@ cout << "Risultato = " << differenza << endl return 0;
 
 return 0
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 ##### 1. Predict
 quando verranno dati i valori a num1, num2, si torverà il valore della differenza
@@ -655,6 +706,9 @@ Il programma scirverà l'equivalente della differenza
 ##### 3. Investigate
 
 ##### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -670,8 +724,12 @@ int main ()
 
     return 0;
 } 
+
         
 ##### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -688,11 +746,14 @@ int main ()
     cout <<differenza;
 
     return 0;
-}
+} 
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 107 - Tipi.cpp
 
-c assegnazione.cpp
+```c assegnazione.cpp
+// asssegnazione.cpp
 // CalcoloSconto.cpp calcolo del prezzo scontato
  #include <iostream>
  #include <string>
@@ -716,8 +777,8 @@ int main()
 
   return o;
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 #### 1. Predict
 gli verrà dato la descrizione dell'oggetto e il prezzo
@@ -727,6 +788,9 @@ il programma stamperà la descrizione e il suo valore
     
 #### 3. Investigate
 #### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -750,8 +814,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
      
 #### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -772,11 +841,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
 
-#Il linguaggio C++
-##Le basi del linguaggio
 ### PROGRAMMA A PAG. 109 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Ordina.cpp: due numeri in ordine crescente
 
 #include<iostream>
@@ -799,8 +870,8 @@ else {
 }
 return 0;
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 
 ##### 1. Predict
@@ -812,6 +883,8 @@ Il programma scriverà i numeri naturali in ordine crescente
 ##### 3. Investigate 
 ##### 4. Modifiy
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include<iostream>
 using namespace std;
 
@@ -836,8 +909,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
        
 ##### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
  #include <iostream>
 using namespace std;
 
@@ -859,10 +937,14 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
 
 
 ### PROGRAMMA A PAG. 110 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // TreXDue.cpp: offerta 3 x 2
 
 #include<iostream>
@@ -884,8 +966,8 @@ int main()
 
   return 0;
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 ##### 1. Predict
 Il programma applica l’offerta 3×2,quindi se compri 3 pezzi, ne paghi solo 2.
@@ -896,6 +978,9 @@ il programma produce il risultato previsto.
 ##### 3. Predict
    
 ##### 4. Predict
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include<iostream>
 using namespace std;
 
@@ -918,8 +1003,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
    
 ##### 5. Predict
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include<iostream>
 using namespace std;
 
@@ -947,9 +1037,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 112 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Prodotto.cpp: prodotto di due numeri
 
 #include<iostream>
@@ -973,8 +1067,8 @@ int main ()
 
   return 0;
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 #### 1. Predict
 Il programma calcola il prodotto
@@ -985,7 +1079,8 @@ Il programma stamperà il risultato
    
 #### 4. Modify
 
-    
+ ```c assegnazione.cpp
+// asssegnazione.cpp   
 #include<iostream>
 using namespace std;
 
@@ -1011,8 +1106,13 @@ int main ()
 
     return 0;
 }
+```
+@LIA.cpp
     
 #### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include<iostream>
 using namespace std;
 
@@ -1032,9 +1132,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG.. 115 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Divisione.cpp: divisione tra interi con sottrazioni succesive
 
 #include<iostream>
@@ -1060,8 +1164,8 @@ cout << "Resto     = " << a << endl;
 return 0
   
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 #### 1. Predict
 divisione tra interi usando sottrazioni successive
@@ -1072,6 +1176,9 @@ Il programma esegue il calcolo
 #### 3. Investigate
    
 #### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include<iostream>
 using namespace std;
 
@@ -1098,8 +1205,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
     
 #### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include<iostream>
 using namespace std;
 
@@ -1119,10 +1231,14 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
 
 
-## PROGRAMMA A PAG. 118 - Tipi.cpp
+### PROGRAMMA A PAG. 118 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Doppio.cpp: doppio dei primi 30 numeri naturali
 #include <iostream>
 using namespace std;
@@ -1137,8 +1253,8 @@ int main()
 return 0;
 
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 
 ##### 1. Predict
@@ -1150,17 +1266,25 @@ Il programma deve stampare il doppio dei numeri naturali da 1 a 30.
 ##### 3. Inestigate
     
 ##### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Doppio.cpp: doppio dei primi 30 numeri naturali
 #include <iostream>
     using namespace std;
 
 int main()
 {
-    for (int i = 1; i <= 30; i++) {
+    for (int i = 1; i <= 30; i++) 
     cout << i << " -> " << i*2 << endl;
 }
+```
+@LIA.cpp
   
 ##### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -1172,9 +1296,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 118 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // TavolaPitagorica.cpp
 #include <iostream>
 #include <iomanip>
@@ -1190,8 +1318,8 @@ int main()
 
 return 0;
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 
 ##### 1. Predict
@@ -1204,6 +1332,8 @@ Esegue il programma, quindi svolge le moltiplicazioni
 
 ##### 4. Modify
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // TavolaPitagorica.cpp
 #include <iostream>
 #include <iomanip>
@@ -1233,8 +1363,13 @@ for (int r=1; r<=10; r++) {
     }
     cout << endl;
 }
+```
+@LIA.cpp
 
 ##### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -1254,9 +1389,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 119 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Massimo.ccp: massimo di n numeri
 
 #include <iostream>
@@ -1284,9 +1423,8 @@ cout << "Il massimo valore e' " << max << endl;
 return 0;
 
 }
-
-@Lia.cpp
-
+```
+@LIA.cpp
 
 #### 1. Predict
 Il programma deve: chiedere quanti numeri inserire (n),leggere n numeri uno alla volta, confrontarli e tenere il massimo e stampare il numero più grande
@@ -1297,6 +1435,9 @@ a goni n viene assegnato un valore e trovare il valore massimo
 #### 3. Investigate 
     
 #### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 / Massimo_Minimo_Modify.cpp
 #include <iostream>
 using namespace std;
@@ -1327,8 +1468,14 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
+
 
 #### 5. Make
+
+```c assegnazione.cpp
+// asssegnazione.cpp
 // Media.cpp: calcola la media di n numeri
 
 #include <iostream>
@@ -1352,9 +1499,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
 
 ### PROGRAMMA A PAG. 121 - Tipi.cpp
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // ScontoProgressivo.cpp: sconto progressivo sui prodotti
 
 #include <iostream>
@@ -1398,8 +1549,8 @@ importo = pezzi * prezzo * (100.0-sconto)/100.0;
 cout << "Importo da pagare = " << importo << endl;
 return 0;
 }
-
-@Lia.cpp
+```
+@LIA.cpp
 
 
 #### 1. Predict
@@ -1411,6 +1562,9 @@ il programma esegue il codice e troverà l'importo da pagare
 #### 3. Inevstigate
     
 #### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
     // ScontoProgressivo_Modify.cpp
 #include <iostream>
 using namespace std;
@@ -1448,9 +1602,13 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
     
 #### 5. Make
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 // ScontoImporto.cpp
 #include <iostream>
 using namespace std;
@@ -1475,3 +1633,5 @@ int main()
 
     return 0;
 }
+```
+@LIA.cpp
