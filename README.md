@@ -354,7 +354,7 @@ int main ()
 ```
 @LIA.cpp
 
-##### 5. Make 
+#### 5. Make 
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -400,7 +400,7 @@ a è un intero con valore 5, b è un float inizialmente 3.56, ma poi diventa ugu
 #### 2. Run
 Il programma stamperà il numero 3
 
-##### 3. Investigate
+#### 3. Investigate
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%20%28%29%0A%7B%0A%20%20%20%20int%20a%20%3D%205%3B%0A%20%20%20%20float%20b%20%3D%203.56%3B%20%0A%20%20%20%20a%20%3D%20b%3B%0A%20%20%20%20cout%20%3C%3C%20a%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
@@ -427,7 +427,7 @@ int main ()
 ```
 @LIA.cpp
 
-##### 5. Make
+#### 5. Make
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -473,10 +473,10 @@ int main()
 ```
 @LIA.cpp
 
-##### 1. Predict
+#### 1. Predict
  la divisione a/b dovrà essere 2 e la somma porterà 5.56
 
-##### 2. Run
+#### 2. Run
  il programma stamperà il numero 5.56
 
 #### 3. Investigate
@@ -507,7 +507,7 @@ int main()
 ```
 @LIA.cpp
 
-##### 5. Make
+#### 5. Make
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -562,7 +562,7 @@ con quota si troverranno i numeri di biglietti che ha una persona e con l'avanzo
 #### 2. Run
 Il programma farà vedere il risultato trovato
 
-#### 3. Investigateù
+#### 3. Investigate
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%20%28%29%20%0A%7B%0A%20%20//%20input%0A%20%20int%20biglietti%20%3D%2010,%20ragazzi%20%3D%203%3B%0A%20%20//%20output%0A%20%20int%20quota,%20avanzo%3B%0A%0A%20%20quota%20%3D%20biglietti%20/%20ragazzi%3B%0A%20%20avanzo%20%3D%20biglietti%20%25%20ragazzi%3B%0A%20%20cout%20%3C%3C%20%22Ad%20ogni%20ragazzo%20spettano%20%22%20%3C%3C%20quota%20%3C%3C%20%22%20biglietti%20%22%20%3C%3C%20endl%3B%0A%20%20cout%20%3C%3C%20%22e%20ne%20avanzano%20%22%20%3C%3C%20avanzo%20%3C%3C%20endl%3B%0A%0A%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=4&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
@@ -712,15 +712,15 @@ return 0
 ```
 @LIA.cpp
 
-##### 1. Predict
+#### 1. Predict
 quando verranno dati i valori a num1, num2, si torverà il valore della differenza
 
-##### 2. Run
+#### 2. Run
 Il programma scirverà l'equivalente della differenza
 
-##### 3. Investigate
+#### 3. Investigate
 
-##### 4. Modify
+#### 4. Modify
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -742,7 +742,7 @@ int main ()
 ```
 @LIA.cpp
         
-##### 5. Make
+#### 5. Make
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -893,14 +893,14 @@ return 0;
 @LIA.cpp
 
 
-##### 1. Predict
+#### 1. Predict
 Chiede due numeri, controlla quale dei due è più piccolo e li stampa in ordine crescente.
     
-##### 2. Run
+#### 2. Run
 Il programma scriverà i numeri naturali in ordine crescente
 
-##### 3. Investigate 
-##### 4. Modifiy
+#### 3. Investigate 
+#### 4. Modifiy
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -931,7 +931,7 @@ int main()
 ```
 @LIA.cpp
        
-##### 5. Make
+#### 5. Make
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -988,17 +988,17 @@ int main()
 ```
 @LIA.cpp
 
-##### 1. Predict
+#### 1. Predict
 Il programma applica l’offerta 3×2,quindi se compri 3 pezzi, ne paghi solo 2.
     
-##### 2. Run
+#### 2. Run
 il programma produce il risultato previsto.
    
-##### 3. Predict
+####  3. Predict
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%28%29%20%0A%7B%0A%20%20//%20input%0A%20%20float%20prezzo%20%3D%204.50%3B%0A%20%20int%20qta%20%3D%2015%3B%0A%20%20//%20output%0A%20%20float%20importo%3B%0A%0A%20%0A%20%20importo%20%3D%20prezzo%20*%20qta%3B%0A%20%20cout%20%3C%3C%20%22Importo%20da%20pagare%20%3D%20%22%20%3C%3C%20importo%20%3C%3C%20endl%3B%0A%0A%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=4&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
    
-##### 4. Predict
+#### 4. Predict
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -1027,7 +1027,7 @@ int main()
 ```
 @LIA.cpp
    
-##### 5. Predict
+#### 5. Predict
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -1278,15 +1278,15 @@ return 0;
 @LIA.cpp
 
 
-##### 1. Predict
+#### 1. Predict
 Il programma dichiara una variabile. Legge il numero e lo moltiplica
     
-##### 2. Run
+#### 2. Run
 Il programma deve stampare il doppio dei numeri naturali da 1 a 30.
     
-##### 3. Inestigate
+#### 3. Inestigate
     
-##### 4. Modify
+#### 4. Modify
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -1302,7 +1302,7 @@ int main()
 ```
 @LIA.cpp
   
-##### 5. Make
+#### 5. Make
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -1343,15 +1343,15 @@ return 0;
 @LIA.cpp
 
 
-##### 1. Predict
+#### 1. Predict
 Il programma deve stampare la tavola pitagorica da 1×1 a 10×10
 
-##### 2. Run
+#### 2. Run
 Esegue il programma, quindi svolge le moltiplicazioni
 
-##### 3. Investigate
+#### 3. Investigate
 
-##### 4. Modify
+#### 4. Modify
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -1387,7 +1387,7 @@ for (int r=1; r<=10; r++) {
 ```
 @LIA.cpp
 
-##### 5. Make
+#### 5. Make
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
