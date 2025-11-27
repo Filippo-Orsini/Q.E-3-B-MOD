@@ -56,16 +56,16 @@ int main() {
 ```
 @LIA.cpp
 
-    #### 1. Predict (p. 86)
+#### 1. Predict (p. 86)
 
 Il programma dichiara tre variabili intere, `a`, `b` e `s`.
 Legge due numeri interi dati in ingresso memorizzandoli nelle variabili `a` e `b`, calcola la somma di queste due variabili memorizzandola in `s` e ne stampa il valore.
 
-    #### 2. Run (p. 86)
+#### 2. Run (p. 86)
 
 Il programma conferma la previsione
 
-    #### 3. Investigate (p. 86)
+#### 3. Investigate (p. 86)
 
 ``` cpp +Somma.cpp
 // Somma.cpp
@@ -91,7 +91,7 @@ Uso 1 e 2.
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20int%20a,%20b,%20s%3B%0A%20%20%20%20//cin%20%3E%3E%20a%3B%0A%20%20%20%20a%20%3D%201%3B%0A%20%20%20%20//cin%20%3E%3E%20b%3B%0A%20%20%20%20b%20%3D%202%3B%0A%20%20%20%20s%20%3D%20a%20%2B%20b%3B%0A%20%20%20%20cout%20%3C%3C%20s%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 
-    #### 4. Modify  (p. 86)
+#### 4. Modify  (p. 86)
 
 Voglio aggiungere informazioni all'utente per comunicare di immettere i numeri intero, voglio essere più descrittivo e andare a capo nell'output.
 
@@ -113,7 +113,7 @@ int main() {
 }
 ```
 
-    #### 5. Make (p. 86)
+#### 5. Make (p. 86)
 
 Scrivo un nuovo programma che calcola il prodotto.
 
@@ -136,10 +136,9 @@ int main() {
 ```
 @LIA.cpp
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG.. 93 - Tipi.cpp
+### PROGRAMMA A PAG.. 93 - Tipi.cpp
 
+``` cpp +Tipi.cpp
 // Tipi.cpp:dimensioni     dei tipi
 #include <iostream>
 using namespace std;
@@ -157,19 +156,20 @@ int main() {
 
     return 0;
 }
-
+```
 @LIA.cpp
 
-    ##### 1. Predict (p. 93)
+##### 1. Predict (p. 93)
 
 Il programma stamperà sullo schermo la dimensione in byte dei vari tipi di dato in C++
 
-    ##### 2. Run (p. 93)
+##### 2. Run (p. 93)
 
 eseguire il codice e osservare le dimensioni in byte dei diversi tipi di dato che vengono visualizzate riga per riga
 
-    #### 3. Investigate
+#### 3. Investigate
 
+``` cpp +Tipi.cpp
 #include <iostream>
 using namespace std;
 
@@ -185,9 +185,11 @@ int main () {
     cout << "Dimensioni di bool: " << sizeof(bool) << " byte\n";
     return 0;
 }
+```
 
-    #### 4. Modify
+#### 4. Modify
 
+```
 #include <iostream>
 using namespace std;
 
@@ -206,9 +208,12 @@ int main () {
     cout << "unsigned int: " << sizeof(unsigned int) << " byte\n";
 
     return 0;
+}
+```
 
-    #### 5. Make
+#### 5. Make
 
+```
 #include <iostream>
 using namespace std;
 
@@ -232,10 +237,13 @@ int main () {
     return 0;
 
 }
+```
+
 
 ### PROGRAMAAZIONE - pag. 94
 
-c assegnazione.cpp
+
+```c assegnazione.cpp
 // asssegnazione.cpp
 #include <iostream>
 using namespace std;
@@ -252,13 +260,14 @@ int main () {
 
 returno 0;
 }
-
+```
 @LIA.cpp
 
-    #### 1. Predict (p. 94)
+#### 1. Predict (p. 94)
+
 Il programma dichiara di avere alcuni variabili e costamti con tipi primitivi e definiti dalla libreria standard ( string )
 
-    #### 2. Run l'esecuzione conferma quanto scritto del predict
+#### 2. Run l'esecuzione conferma quanto scritto del predict
 
     #### 3. Investigate
 
