@@ -159,11 +159,11 @@ int main() {
 ```
 @LIA.cpp
 
-##### 1. Predict (p. 93)
+#### 1. Predict (p. 93)
 
 Il programma stamperà sullo schermo la dimensione in byte dei vari tipi di dato in C++
 
-##### 2. Run (p. 93)
+#### 2. Run (p. 93)
 
 eseguire il codice e osservare le dimensioni in byte dei diversi tipi di dato che vengono visualizzate riga per riga
 
@@ -300,7 +300,7 @@ int main () {
 @LIA.cpp
 
 
-#### PROGRAMMA AP PAG. 98 - Tipi.cpp
+### PROGRAMMAZIONE PAG. 98 - Tipi.cpp
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
