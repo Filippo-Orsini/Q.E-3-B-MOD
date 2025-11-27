@@ -117,8 +117,8 @@ int main() {
 
 Scrivo un nuovo programma che calcola il prodotto.
 
-``` cpp +Prodotto.cpp
-// Prodotto.cpp
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -136,10 +136,10 @@ int main() {
 ```
 @LIA.cpp
 
-### PROGRAMMA A PAG.. 93 - Tipi.cpp
+### PROGRAMMA A PAG.93 - Tipi.cpp
 
-``` cpp +Tipi.cpp
-// Tipi.cpp:dimensioni     dei tipi
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -168,24 +168,6 @@ Il programma stamperà sullo schermo la dimensione in byte dei vari tipi di dato
 eseguire il codice e osservare le dimensioni in byte dei diversi tipi di dato che vengono visualizzate riga per riga
 
 #### 3. Investigate
-
-``` cpp +Tipi.cpp
-#include <iostream>
-using namespace std;
-
-int main () {
-    cout << "Dimensioni di int: " << sizeof(int) << " byte\n";
-    cout << "Dimensioni di short int: " << sizeof(short int) << " byte\n";
-    cout << "Dimensioni di long int: " << sizeof(long int) << " byte\n";
-    cout << "Dimensioni di long long int: " << sizeof(long long int) << " byte\n";
-    cout << "Dimensioni di float: " << sizeof(float) << " byte\n";
-    cout << "Dimensioni di double: " << sizeof(double) << " byte\n";
-    cout << "Dimensioni di long double: " << sizeof(long double) << " byte\n";
-    cout << "Dimensioni di char: " << sizeof(char) << " byte\n";
-    cout << "Dimensioni di bool: " << sizeof(bool) << " byte\n";
-    return 0;
-}
-```
 
 #### 4. Modify
 
@@ -238,7 +220,7 @@ int main () {
 
 }
 ```
-
+@LIA.cpp
 
 ### PROGRAMAAZIONE - pag. 94
 
@@ -269,13 +251,18 @@ Il programma dichiara di avere alcuni variabili e costamti con tipi primitivi e 
 
 #### 2. Run l'esecuzione conferma quanto scritto del predict
 
-    #### 3. Investigate
+#### 3. Investigate
 
 Per usare PythonTutor devo impostare dei valori alle variabili di input.
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=//%20asssegnazione.cpp%0A%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0Aint%20main%20%28%29%20%7B%0A%20%20%20%20double%20raggio%3D%2010%3B%0A%20%20%20%20double%20area%20%3D%20raggio%20*%20raggio%20*%203.14%3B%0A%20%20%20%20int%20tempo_in_sec%20%3D%20900%3B%0A%20%20%20%20int%20durata_in_minuti%20%3D%20tempo_in_sec%20/%2060%3B%0A%20%20%20%20double%20spazio%20%3D%201000%3B%20//%201%20km%0A%20%20%20%20double%20tempo%20%3D%206%20*%2060%3B%20//%206%20minuti%0A%20%20%20%20double%20velocita%20%3D%20spazio%20/%20tempo%3B%0A%20%20%20%20string%20nome%20%3D%20%22Rossi%22%3B%0A%0Areturn%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-    #### 4. Modify
+#### 4. Modify
+
+```c assegnazione.cpp
+// asssegnazione.cpp
+#include <iostream>
+using namespace std;
 // Calcolo dell'età
     int anno_nascita = 2005;
     int anno_corrente = 2025;
@@ -284,9 +271,13 @@ Per usare PythonTutor devo impostare dei valori alle variabili di input.
     cout << "Nome: " << nome << endl;
     cout << "Età: " << eta << " anni" << endl;
 }
+```
+@LIA.cpp
 
-    #### 5. Make
+#### 5. Make
 
+```c assegnazione.cpp
+// asssegnazione.cpp
 #include <iostream>
 using namespace std;
 
@@ -305,14 +296,17 @@ int main () {
     cout << "Età: " << eta << " anni" << endl;
     cout << "IMC: " << imc << endl;
 }
+```
+@LIA.cpp
 
-#Il linguaggio C++
-##Le basi del linguaggio
-##PROGRAMMA A PAG.. 98 - Tipi.cpp
-c assegnazione.cpp
+
+#### PROGRAMMA AP PAG. 98 - Tipi.cpp
+
+```c assegnazione.cpp
 // asssegnazione.cpp
 #include <iostream>
 using namespace std;
+
 
 int main () 
 {
@@ -323,18 +317,18 @@ int main ()
 
 return 0;
 }
-
+```
 @LIA.cpp
 
-    #### 1. Predict (p.98)
+#### 1. Predict (p.98)
 a è un intero con valore 5, b è un float inizialmente 3.56, ma poi diventa uguale a a (b = a) , quindi b diventerà 5.
 
-    #### 2. Run
+#### 2. Run
 Il programma stamperà il numero 5
 
-    #### 3. Investigate 
+#### 3. Investigate 
 
-    #### 4. Modify
+#### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -351,7 +345,7 @@ int main ()
     return 0;
 }
 
-    ##### 5. Make 
+##### 5. Make 
 #include <iostream>
 using namespace std;
 
@@ -367,9 +361,8 @@ int main()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 98 - Tipi.cpp
+
+### PROGRAMMA A PAG. 98 - Tipi.cpp
 
 c assegnazione.cpp
 // asssegnazione.cpp
@@ -388,15 +381,15 @@ int main ()
 
 @Lia.cpp
 
-    #### 1. Predict (p.98)
+#### 1. Predict (p.98)
 a è un intero con valore 5, b è un float inizialmente 3.56, ma poi diventa uguale a b (a = b) , quindi b sarà troncato ad 3.
 
-    #### 2. Run
+#### 2. Run
 Il programma stamperà il numero 3
 
-    ##### 3. Investigate
+##### 3. Investigate
 
-    #### 4. Modify
+#### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -415,7 +408,7 @@ int main ()
     return 0;
 }
 
-    ##### 5. Make
+##### 5. Make
 #include <iostream>
 using namespace std;
 
@@ -434,9 +427,7 @@ int main ()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 98 - Tipi.cpp
+### PROGRAMMA A PAG. 99 - Tipi.cpp
 
 c assegnazione.cpp
 // asssegnazione.cpp
@@ -455,17 +446,18 @@ int main()
   return 0;
 }
 
+
 @Lia.cpp
 
-    ##### 1. Predict
+##### 1. Predict
  la divisione a/b dovrà essere 2 e la somma porterà 5.56
 
-    ##### 2. Run
+##### 2. Run
  il programma stamperà il numero 5.56
 
-    #### 3. Investigate
+#### 3. Investigate
 
-    #### 4. Modify
+#### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -484,7 +476,7 @@ int main()
     return 0;
 } 
 
-    ##### 5. Make
+##### 5. Make
 #include <iostream>
 using namespace std;
 
@@ -501,9 +493,7 @@ int main()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 103 - Tipi.cpp
+### PROGRAMMA A PAG. 103 - Tipi.cpp
 
 // Parcogiochi.cpp: divisione dei biglietti
 #include <iostream>
@@ -528,14 +518,14 @@ int main ()
 
 @Lia.cpp
 
-    ##### 1. Predict 
+##### 1. Predict 
 con quota si troverranno i numeri di biglietti che ha una persona e con l'avanzo è quello che rimane dolo pa divisione dei blieglietti / ragazzi
 
-    ##### 2. Run
+##### 2. Run
 Il programma farà vedere il risultato trovato
 
-    ##### 3. Investigate
-    ##### 4. Modify
+##### 3. Investigate
+##### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -558,7 +548,7 @@ int main ()
 
   return 0;
 
-    #### 5. Make 
+#### 5. Make 
 #include <iostream>
 using namespace std;
 
@@ -580,10 +570,7 @@ int main ()
   return 0;
 }
 
-
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 103 - Tipi.cpp
+### PROGRAMMA A PAG. 103 - Tipi.cpp
 
 // Quoziente.cpp : divisione di due numeri
 #include <iostream>
@@ -601,15 +588,15 @@ int main ()
 
 @Lia.cpp
 
-    ##### 1. Predict
+##### 1. Predict
 a, b, avranno due numeri interi e la quota mi darà la divisione dei due numeri
 
-    ##### 2. Run
+##### 2. Run
 il programma stamperà il valore della quota
 
-    #### 3. Investigate 
+#### 3. Investigate 
 
-    #### 4. Modify
+#### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -626,7 +613,7 @@ int main ()
     return 0;
 }
 
-    #### 5. Make 
+#### 5. Make 
 #include <iostream>
 using namespace std;
 
@@ -640,9 +627,7 @@ int main ()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 106 - Tipi.cpp
+### PROGRAMMA A PAG. 106 - Tipi.cpp
 
 c assegnazione.cpp
 // Differenza.cpp: differenza tra due numeri 
@@ -661,15 +646,15 @@ return 0
 
 @Lia.cpp
 
-    ##### 1. Predict
+##### 1. Predict
 quando verranno dati i valori a num1, num2, si torverà il valore della differenza
 
-    ##### 2. Run
+##### 2. Run
 Il programma scirverà l'equivalente della differenza
 
-    ##### 3. Investigate
+##### 3. Investigate
 
-    ##### 4. Modify
+##### 4. Modify
 #include <iostream>
 using namespace std;
 
@@ -686,7 +671,7 @@ int main ()
     return 0;
 } 
         
-    ##### 5. Make
+##### 5. Make
 #include <iostream>
 using namespace std;
 
@@ -705,9 +690,7 @@ int main ()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 107 - Tipi.cpp
+### PROGRAMMA A PAG. 107 - Tipi.cpp
 
 c assegnazione.cpp
 // CalcoloSconto.cpp calcolo del prezzo scontato
@@ -736,14 +719,14 @@ int main()
 
 @Lia.cpp
 
-    #### 1. Predict
+#### 1. Predict
 gli verrà dato la descrizione dell'oggetto e il prezzo
     
-    #### 2. Run
+#### 2. Run
 il programma stamperà la descrizione e il suo valore
     
-    #### 3. Investigate
-    #### 4. Modify
+#### 3. Investigate
+#### 4. Modify
 #include <iostream>
 #include <string>
 using namespace std;
@@ -768,7 +751,7 @@ int main()
     return 0;
 }
      
-    #### 5. Make
+#### 5. Make
 #include <iostream>
 #include <string>
 using namespace std;
@@ -792,7 +775,7 @@ int main()
 
 #Il linguaggio C++
 ##Le basi del linguaggio
-###PROGRAMMA A PAG. 109 - Tipi.cpp
+### PROGRAMMA A PAG. 109 - Tipi.cpp
 
 // Ordina.cpp: due numeri in ordine crescente
 
@@ -820,16 +803,16 @@ return 0;
 @Lia.cpp
 
 
-    ##### 1. Predict
+##### 1. Predict
 Chiede due numeri, controlla quale dei due è più piccolo e li stampa in ordine crescente.
     
-    ##### 2. Run
+##### 2. Run
 Il programma scriverà i numeri naturali in ordine crescente
 
-    ##### 3. Investigate 
-    ##### 4. Modifiy
+##### 3. Investigate 
+##### 4. Modifiy
 
-    #include<iostream>
+#include<iostream>
 using namespace std;
 
 int main() 
@@ -854,7 +837,7 @@ int main()
     return 0;
 }
        
-    ##### 5. Make
+##### 5. Make
  #include <iostream>
 using namespace std;
 
@@ -877,9 +860,8 @@ int main()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 110 - Tipi.cpp
+
+### PROGRAMMA A PAG. 110 - Tipi.cpp
 
 // TreXDue.cpp: offerta 3 x 2
 
@@ -905,16 +887,16 @@ int main()
 
 @Lia.cpp
 
-    ##### 1. Predict
+##### 1. Predict
 Il programma applica l’offerta 3×2,quindi se compri 3 pezzi, ne paghi solo 2.
     
-    ##### 2. Run
+##### 2. Run
 il programma produce il risultato previsto.
    
-    ##### 3. Predict
+##### 3. Predict
    
-    ##### 4. Predict
-    #include<iostream>
+##### 4. Predict
+#include<iostream>
 using namespace std;
 
 int main() 
@@ -937,8 +919,8 @@ int main()
     return 0;
 }
    
-    ##### 5. Predict
-    #include<iostream>
+##### 5. Predict
+#include<iostream>
 using namespace std;
 
 int main()
@@ -966,9 +948,7 @@ int main()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 112 - Tipi.cpp
+### PROGRAMMA A PAG. 112 - Tipi.cpp
 
 // Prodotto.cpp: prodotto di due numeri
 
@@ -996,14 +976,14 @@ int main ()
 
 @Lia.cpp
 
-    #### 1. Predict
+#### 1. Predict
 Il programma calcola il prodotto
     
-    #### 2. Run
+#### 2. Run
 Il programma stamperà il risultato
-    #### 3. Investigate
+#### 3. Investigate
    
-    #### 4. Modify
+#### 4. Modify
 
     
 #include<iostream>
@@ -1032,7 +1012,7 @@ int main ()
     return 0;
 }
     
-    #### 5. Make
+#### 5. Make
 #include<iostream>
 using namespace std;
 
@@ -1053,9 +1033,7 @@ int main()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG.. 115 - Tipi.cpp
+### PROGRAMMA A PAG.. 115 - Tipi.cpp
 
 // Divisione.cpp: divisione tra interi con sottrazioni succesive
 
@@ -1085,15 +1063,15 @@ return 0
 
 @Lia.cpp
 
-    #### 1. Predict
+#### 1. Predict
 divisione tra interi usando sottrazioni successive
     
-    #### 2. Run
+#### 2. Run
 Il programma esegue il calcolo
 
-    #### 3. Investigate
+#### 3. Investigate
    
-    #### 4. Modify
+#### 4. Modify
 #include<iostream>
 using namespace std;
 
@@ -1121,7 +1099,7 @@ int main()
     return 0;
 }
     
-    #### 5. Make
+#### 5. Make
 #include<iostream>
 using namespace std;
 
@@ -1143,9 +1121,7 @@ int main()
 }
 
 
-#Il linguaggio C++
-##Le basi del linguaggio
-##PROGRAMMA A PAG. 118 - Tipi.cpp
+## PROGRAMMA A PAG. 118 - Tipi.cpp
 
 // Doppio.cpp: doppio dei primi 30 numeri naturali
 #include <iostream>
@@ -1165,17 +1141,17 @@ return 0;
 @Lia.cpp
 
 
-    ##### 1. Predict
+##### 1. Predict
 Il programma dichiara una variabile. Legge il numero e lo moltiplica
     
-    ##### 2. Run
+##### 2. Run
 Il programma deve stampare il doppio dei numeri naturali da 1 a 30.
     
-    ##### 3. Inestigate
+##### 3. Inestigate
     
-    ##### 4. Modify
+##### 4. Modify
 // Doppio.cpp: doppio dei primi 30 numeri naturali
-    #include <iostream>
+#include <iostream>
     using namespace std;
 
 int main()
@@ -1184,7 +1160,7 @@ int main()
     cout << i << " -> " << i*2 << endl;
 }
   
-    ##### 5. Make
+##### 5. Make
 #include <iostream>
 using namespace std;
 
@@ -1197,9 +1173,7 @@ int main()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 118 - Tipi.cpp
+### PROGRAMMA A PAG. 118 - Tipi.cpp
 
 // TavolaPitagorica.cpp
 #include <iostream>
@@ -1220,15 +1194,15 @@ return 0;
 @Lia.cpp
 
 
-    ##### 1. Predict
+##### 1. Predict
 Il programma deve stampare la tavola pitagorica da 1×1 a 10×10
 
-    ##### 2. Run
+##### 2. Run
 Esegue il programma, quindi svolge le moltiplicazioni
 
-    ##### 3. Investigate
+##### 3. Investigate
 
-    ##### 4. Modify
+##### 4. Modify
 
 // TavolaPitagorica.cpp
 #include <iostream>
@@ -1260,7 +1234,7 @@ for (int r=1; r<=10; r++) {
     cout << endl;
 }
 
-    ##### 5. Make
+##### 5. Make
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -1281,9 +1255,7 @@ int main()
     return 0;
 }
 
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 119 - Tipi.cpp
+### PROGRAMMA A PAG. 119 - Tipi.cpp
 
 // Massimo.ccp: massimo di n numeri
 
@@ -1316,15 +1288,15 @@ return 0;
 @Lia.cpp
 
 
-    #### 1. Predict
+#### 1. Predict
 Il programma deve: chiedere quanti numeri inserire (n),leggere n numeri uno alla volta, confrontarli e tenere il massimo e stampare il numero più grande
 
-    #### 2. Run
+#### 2. Run
 a goni n viene assegnato un valore e trovare il valore massimo
 
-    #### 3. Investigate 
+#### 3. Investigate 
     
-    #### 4. Modify
+#### 4. Modify
 / Massimo_Minimo_Modify.cpp
 #include <iostream>
 using namespace std;
@@ -1356,7 +1328,7 @@ int main()
     return 0;
 }
 
-    #### 5. Make
+#### 5. Make
 // Media.cpp: calcola la media di n numeri
 
 #include <iostream>
@@ -1381,10 +1353,7 @@ int main()
     return 0;
 }
 
-
-#Il linguaggio C++
-##Le basi del linguaggio
-###PROGRAMMA A PAG. 121 - Tipi.cpp
+### PROGRAMMA A PAG. 121 - Tipi.cpp
 
 // ScontoProgressivo.cpp: sconto progressivo sui prodotti
 
@@ -1433,15 +1402,15 @@ return 0;
 @Lia.cpp
 
 
-    #### 1. Predict
+#### 1. Predict
 Il programma,leggerà quanti pezzi vengono acquistati poi legge il prezzo di un singolo prodotto e in base al numero di pezzi, assegna una percentuale di sconto:
     
-    #### 2. Run 
+#### 2. Run 
 il programma esegue il codice e troverà l'importo da pagare
     
-    #### 3. Inevstigate
+#### 3. Inevstigate
     
-    #### 4. Modify
+#### 4. Modify
     // ScontoProgressivo_Modify.cpp
 #include <iostream>
 using namespace std;
@@ -1480,7 +1449,7 @@ int main()
     return 0;
 }
     
-    #### 5. Make
+#### 5. Make
 
 // ScontoImporto.cpp
 #include <iostream>
@@ -1506,17 +1475,3 @@ int main()
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
