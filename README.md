@@ -251,7 +251,8 @@ return 0;
 
 Il programma dichiara di avere alcuni variabili e costamti con tipi primitivi e definiti dalla libreria standard ( string )
 
-#### 2. Run l'esecuzione conferma quanto scritto del predict
+#### 2. Run 
+l'esecuzione conferma quanto scritto del predict
 
 #### 3. Investigate
 
@@ -651,6 +652,8 @@ il programma stamperà il valore della quota
 
 #### 3. Investigate 
 
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=//%20Quoziente.cpp%20%3A%20divisione%20di%20due%20numeri%0A%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%20%28%29%20%0A%7B%0A%20int%20a%20%3D%20300%3B%0A%20int%20b%20%3D%205%3B%20%0A%20int%20q%20%3D%2060%3B%0A%0A%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=4&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
 #### 4. Modify
 
 ```c assegnazione.cpp
@@ -994,11 +997,11 @@ Il programma applica l’offerta 3×2,quindi se compri 3 pezzi, ne paghi solo 2.
 #### 2. Run
 il programma produce il risultato previsto.
    
-####  3. Predict
+####  3. Investigate
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%28%29%20%0A%7B%0A%20%20//%20input%0A%20%20float%20prezzo%20%3D%204.50%3B%0A%20%20int%20qta%20%3D%2015%3B%0A%20%20//%20output%0A%20%20float%20importo%3B%0A%0A%20%0A%20%20importo%20%3D%20prezzo%20*%20qta%3B%0A%20%20cout%20%3C%3C%20%22Importo%20da%20pagare%20%3D%20%22%20%3C%3C%20importo%20%3C%3C%20endl%3B%0A%0A%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=4&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
    
-#### 4. Predict
+#### 4. Modify
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -1027,7 +1030,7 @@ int main()
 ```
 @LIA.cpp
    
-#### 5. Predict
+#### 5. Make
 
 ```c assegnazione.cpp
 // asssegnazione.cpp
@@ -1182,7 +1185,7 @@ int main()
 cout << "Quoziente = " << quoz << endl;
 cout << "Resto     = " << a << endl;
 
-return 0
+return 0;
   
 }
 ```
@@ -1195,6 +1198,8 @@ divisione tra interi usando sottrazioni successive
 Il programma esegue il calcolo
 
 #### 3. Investigate
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%0A%23include%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%28%29%20%0A%7B%0A%20%20//%20input%0A%20%20int%20a%20%3D%2030%3B%20%0A%20%20int%20b%20%3D%2010%3B%0A%20%20//%20output%0A%20%20int%20quoz%20%3D%203%3B%20%20//%20quoziente%20della%20divisione%20tra%20interi%0A%0A%20%20cout%20%3C%3C%20%22Due%20numeri%20%28dividendo%20e%20divisore%29%3A%20%22%3B%0A%20%20cin%20%3E%3E%20a%20%3E%3E%20b%3B%0A%20%20while%20%28a%20%3E%3D%20b%29%20%7B%0A%20%20%20%20%20a%20-%3Db%3B%0A%20%20%20%20%20quoz%2B%2B%3B%0A%7D%0A%0Acout%20%3C%3C%20%22Quoziente%20%3D%20%22%20%3C%3C%20quoz%20%3C%3C%20endl%3B%0Acout%20%3C%3C%20%22Resto%20%20%20%20%20%3D%20%22%20%3C%3C%20a%20%3C%3C%20endl%3B%0A%0Areturn%200%3B%0A%20%20%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=11&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
    
 #### 4. Modify
 
@@ -1284,7 +1289,9 @@ Il programma dichiara una variabile. Legge il numero e lo moltiplica
 #### 2. Run
 Il programma deve stampare il doppio dei numeri naturali da 1 a 30.
     
-#### 3. Inestigate
+#### 3. Investigate
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%28%29%0A%7B%0A%20%20for%20%28int%20i%3D1%3B%20i%3C%3D30%3B%20i%2B%2B%29%20%7B%0A%20%20%20%20%20%20cout%20%3C%3C%20i*2%20%3C%3C%20endl%3B%0A%20%20%20%20%0A%7D%0A%0Areturn%200%3B%0A%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=63&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
     
 #### 4. Modify
 
