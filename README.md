@@ -169,6 +169,8 @@ eseguire il codice e osservare le dimensioni in byte dei diversi tipi di dato ch
 
 #### 3. Investigate
 
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20cout%20%3C%3C%20%22Dimensioni%20di%20int%3A%20%22%20%3C%3C%20sizeof%28int%29%20%3C%3C%20%22%20byte%5Cn%22%3B%0A%20%20%20%20cout%20%3C%3C%20%22Dimensioni%20di%20short%20int%3A%20%22%20%3C%3C%20sizeof%28short%20int%29%20%3C%3C%20%22%20byte%5Cn%22%3B%0A%20%20%20%20cout%20%3C%3C%20%22Dimensioni%20di%20long%20int%3A%20%22%20%3C%3C%20sizeof%28long%20int%29%20%3C%3C%20%22%20byte%5Cn%22%3B%0A%20%20%20%20cout%20%3C%3C%20%22Dimensioni%20di%20long%20long%20int%3A%20%22%20%3C%3C%20sizeof%28long%20long%20int%29%20%3C%3C%20%22%20byte%5Cn%22%3B%0A%20%20%20%20cout%20%3C%3C%20%22Dimensioni%20di%20float%3A%20%22%20%3C%3C%20sizeof%28float%29%20%3C%3C%20%22%20byte%5Cn%22%3B%0A%20%20%20%20cout%20%3C%3C%20%22Dimensioni%20di%20double%3A%20%22%20%3C%3C%20sizeof%28double%29%20%3C%3C%20%22%20byte%5Cn%22%3B%0A%20%20%20%20cout%20%3C%3C%20%22Dimensioni%20di%20long%20double%3A%20%22%20%3C%3C%20sizeof%28long%20double%29%20%3C%3C%20%22%20byte%5Cn%22%3B%0A%20%20%20%20cout%20%3C%3C%20%22Dimensioni%20di%20char%3A%20%22%20%3C%3C%20sizeof%28char%29%20%3C%3C%20%22%20byte%5Cn%22%3B%0A%20%20%20%20cout%20%3C%3C%20%22Dimensioni%20di%20bool%3A%20%22%20%3C%3C%20sizeof%28bool%29%20%3C%3C%20%22%20byte%5Cn%22%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
 #### 4. Modify
 
 ```
